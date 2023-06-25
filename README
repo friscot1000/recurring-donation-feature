@@ -19,7 +19,15 @@ The results will be stored in the output folder in the output.txt file.
 
 ## Testing the Solution
 
-To test the solution, follow the steps outlined in the previous section to build and run the solution. Once the solution is executed, you can examine the output.txt file to verify the correctness of the results.
+To test the Donation Manager solution, follow the steps below:
+
+1. Open a command prompt or terminal and navigate to the directory where the `DonationManagerTest.py` file is located.
+
+2. Run the test script by executing the following command:
+
+   ```bash
+   python3 DonationManagerTest.py
+   ```
 
 ## Solution Overview
 
