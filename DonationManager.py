@@ -22,7 +22,6 @@ class DonationManager:
                     self.donate(text_input)
             self.write_donors()
             self.write_campaigns()
-            print("")
 
     def add_campaign(self, user_input):
         campaign_data = user_input.split()
@@ -45,11 +44,12 @@ class DonationManager:
         if campaign_name in self.campaigns:
             self.campaigns[campaign_name].make_donation(amount)
         else:
-            print("Campaign does not exist.")
+            return "Campaign does not exist."
         if donor_name in self.donors:
             self.donors[donor_name].donation(amount)
         else:
-            print("Donor does not exist.")
+            return "Donor does not exist."
+        return "Donation Successful"
 
     def write_donors(self):
         sorted_donors = OrderedDict(sorted(self.donors.items()))
