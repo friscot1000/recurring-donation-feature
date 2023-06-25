@@ -22,6 +22,7 @@ class DonationManager:
                     self.donate(text_input)
             self.write_donors()
             self.write_campaigns()
+            sys.exit(0)
 
     def add_campaign(self, user_input):
         campaign_data = user_input.split()
@@ -67,5 +68,5 @@ class DonationManager:
 
 
 if __name__ == '__main__':
-    donation_manager = DonationManager(sys.argv[1])
+    donation_manager = DonationManager(sys.stdin)
     donation_manager.user_input()
