@@ -1,0 +1,19 @@
+# recurring-donation-feature
+## ○ explains the steps necessary to build and run your solution
+### Clone the Repository
+```git clone https://github.com/friscot1000/recurring-donation-feature.git```
+
+### From the root run the following command
+        ```./gfm-recurring input.txt````
+### Results will be in output folder output.txt file.
+
+## ○ describes how your solution should be tested
+
+## ○ describes the process and rationale behind the solution you have submitted
+### There are 3 files, DonationManager, Donor and Campaign.
+### In the constructor we instantiate 3 objects.  campaigns, donors and filename.
+### We use the main method to call the constructor in DonationMmanager then we call user_input from that object.
+### In the User_input method we iterate over the text file and have some conditions to check if keyworks are in the string.
+### If any of the keywords are detected we then add a donor, campaign or make a donation.
+### Once everything is set I call the write_donor() and write_campaigns() methods to create the output.txt file.
+
