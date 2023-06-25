@@ -38,8 +38,6 @@ The solution consists of three main files: `DonationManager`, `Donor`, and `Camp
 
 In the constructor, three objects are instantiated: `campaigns`, `donors`, and `filename`. The `main` method is used to call the constructor in `DonationManager`, and then the `user_input` method is called from that object.
 
-Within the `user_input` method, the solution iterates over the text file and checks for specific keywords in each string. If any of the keywords are detected, a donor, campaign, or donation is added accordingly.
+Within the `user_input` method, the solution iterates over the text file and checks for specific keywords in each string. If any of the keywords are detected, a donor, a campaign, or donation is added accordingly.
 
 Once all the necessary data is processed, the `write_donor()` and `write_campaigns()` methods are called to create the `output.txt` file.
-
-This solution provides a way to manage recurring donations by handling donors, campaigns, and their interactions.
