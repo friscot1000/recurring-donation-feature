@@ -1,0 +1,6 @@
+Donors:
+Mike: Total: $150 Average: $75.0
+Frank: Total: $200 Average: $200.0
+
+Campaigns:
+cats: Total: $350
